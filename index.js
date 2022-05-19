@@ -1,6 +1,6 @@
 
-function MyComponent(){
-    return (<div>Hello OpenClassrooms </div>)
+function Header(){
+    return (<h1>La maison jungle !</h1>)    
 }
 
-ReactDOM.render(<MyComponent />,document.getElementById("react-goes-here"))
+ReactDOM.render(<Header/>,document.getElementById("root"))
